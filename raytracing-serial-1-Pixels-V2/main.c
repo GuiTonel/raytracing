@@ -362,7 +362,7 @@ int main(int argc, char const *argv[])
 
     
     float pixels_number = IMAGE_WIDTH*IMAGE_HEIGHT;
-    int batch_size = IMAGE_WIDTH*2;
+    int batch_size = IMAGE_WIDTH;
     int batch_number = pixels_number/batch_size;
     PIXELS_LIST = (colour_t**) malloc(sizeof(colour_t*)*batch_number);
 
