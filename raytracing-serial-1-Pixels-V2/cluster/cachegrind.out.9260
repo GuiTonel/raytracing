@@ -1,0 +1,739 @@
+desc: I1 cache:         65536 B, 64 B, 2-way associative
+desc: D1 cache:         65536 B, 64 B, 2-way associative
+desc: LL cache:         16777216 B, 64 B, 16-way associative
+cmd: ./ray_tracing_one_week -s 10 -t 8 --scene random_spheres random_spheres.ppm
+events: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw 
+fl=???
+fn=(below main)
+0 76 7 5 23 2 0 18 0 0
+fn=???
+0 14939662 359 164 14879175 717403 95 9563 113 28
+fn=_Exit
+0 8 2 2 1 0 0 0 0 0
+fn=_IO_cleanup
+0 184 8 8 55 2 1 29 0 0
+fn=_IO_default_finish
+0 14 2 2 4 0 0 1 0 0
+fn=_IO_default_setbuf
+0 100 4 4 18 0 0 30 0 0
+fn=_IO_default_uflow
+0 24 2 2 7 0 0 4 0 0
+fn=_IO_default_xsputn
+0 5826 10 6 1060 0 0 817 1 1
+fn=_IO_do_write@@GLIBC_2.2.5
+0 10778 528 6 2929 14 0 2278 0 0
+fn=_IO_doallocbuf
+0 75 4 2 24 2 0 12 1 0
+fn=_IO_file_close
+0 2 1 1 1 0 0 0 0 0
+fn=_IO_file_close_it@@GLIBC_2.2.5
+0 55 5 5 10 0 0 16 0 0
+fn=_IO_file_doallocate
+0 164 7 5 29 6 1 18 3 1
+fn=_IO_file_finish@@GLIBC_2.2.5
+0 12 2 2 3 0 0 2 0 0
+fn=_IO_file_fopen@@GLIBC_2.2.5
+0 168 10 10 26 3 2 24 0 0
+fn=_IO_file_overflow@@GLIBC_2.2.5
+0 2529 14 6 683 0 0 368 3 2
+fn=_IO_file_read
+0 8 2 2 4 0 0 2 0 0
+fn=_IO_file_setbuf@@GLIBC_2.2.5
+0 30 2 1 6 0 0 16 0 0
+fn=_IO_file_stat
+0 12 1 1 3 0 0 0 0 0
+fn=_IO_file_sync@@GLIBC_2.2.5
+0 2923 8 3 870 5 0 434 1 1
+fn=_IO_file_underflow@@GLIBC_2.2.5
+0 65 7 7 21 1 0 15 0 0
+fn=_IO_file_write@@GLIBC_2.2.5
+0 6804 292 2 1512 14 0 945 0 0
+fn=_IO_file_xsputn@@GLIBC_2.2.5
+0 18824573 59 5 4028815 96 0 3244404 17 7
+fn=_IO_flush_all_lockp
+0 122 9 9 33 13 3 16 0 0
+fn=_IO_getline
+0 2 1 1 0 0 0 0 0 0
+fn=_IO_getline_info
+0 81 6 6 16 0 0 16 0 0
+fn=_IO_link_in
+0 208 13 10 74 6 1 36 0 0
+fn=_IO_new_file_init_internal
+0 26 4 2 8 0 0 10 0 0
+fn=_IO_no_init
+0 86 3 3 15 0 0 47 4 2
+fn=_IO_old_init
+0 72 3 3 6 0 0 54 3 2
+fn=_IO_setb
+0 118 4 2 29 0 0 28 0 0
+fn=_IO_sputbackc
+0 36 3 3 14 0 0 6 0 0
+fn=_IO_str_init_static_internal
+0 35 4 4 5 0 0 13 0 0
+fn=_IO_switch_to_get_mode
+0 24 3 3 8 0 0 7 0 0
+fn=_IO_un_link
+0 86 7 7 29 0 0 14 0 0
+fn=_IO_unsave_markers
+0 9 2 2 4 0 0 1 0 0
+fn=_IO_vfscanf
+0 1104 45 45 269 15 7 104 8 8
+fn=_L_lock_883
+0 60 3 2 0 0 0 12 6 6
+fn=_L_unlock_738
+0 105 1 1 0 0 0 21 0 0
+fn=_Unwind_Find_FDE
+0 2520 9 8 585 2 0 765 9 2
+fn=_Unwind_ForcedUnwind
+0 602 5 5 309 3 0 382 17 2
+fn=_Unwind_GetCFA
+0 360 3 2 180 0 0 0 0 0
+fn=__GI___rawmemchr
+0 24 3 3 3 0 0 0 0 0
+fn=__GI_memcpy
+0 111978 7 7 19229 35 0 15066 26 1
+fn=__GI_mempcpy
+0 6992592 198 3 846874 0 0 486375 1435 127
+fn=__GI_memset
+0 25425 8 4 908 0 0 10056 864 850
+fn=__GI_strlen
+0 27 4 4 3 1 1 0 0 0
+fn=__GI_strrchr
+0 61 4 4 4 1 1 0 0 0
+fn=__GI_strstr
+0 73 7 7 22 2 1 12 0 0
+fn=____strtol_l_internal
+0 498 11 11 57 6 3 33 1 1
+fn=__acos_finite
+0 5 1 1 3 0 0 0 0 0
+fn=__asin_finite
+0 5 1 1 3 0 0 0 0 0
+fn=__atan2_finite
+0 8 1 1 3 0 0 0 0 0
+fn=__close_nocancel
+0 5 1 1 1 0 0 0 0 0
+fn=__cos_avx
+0 84326643 98955 55 17600026 31756 4 7130141 0 0
+fn=__cpu_indicator_init
+0 81 6 6 17 0 0 11 0 0
+fn=__ctype_init
+0 144 4 2 90 12 0 27 2 0
+fn=__cxa_atexit
+0 22 2 2 5 0 0 8 0 0
+fn=__cxa_finalize
+0 184 4 4 48 1 0 24 0 0
+fn=__deallocate_stack
+0 296 4 4 88 1 0 92 3 0
+fn=__default_morecore
+0 104 1 1 13 0 0 13 0 0
+fn=__doasin
+0 520358 25089 28 32741 2078 3 5169 0 0
+fn=__docos
+0 22650 1655 7 6370 0 0 3915 35 0
+fn=__dubcos
+0 460994 1471 51 44949 1008 0 9984 57 0
+fn=__dubsin
+0 487139 7434 52 34834 1237 3 7152 5 0
+fn=__exp1
+0 9622573 4253 9 1946142 149172 218 432467 1 0
+fn=__exp_finite
+0 8 1 1 3 0 0 0 0 0
+fn=__fopen_internal
+0 78 3 3 8 0 0 20 3 1
+fn=__fopen_maybe_mmap
+0 8 1 1 4 0 0 0 0 0
+fn=__free_stacks
+0 160 3 3 64 1 0 40 0 0
+fn=__free_tcb
+0 96 1 1 32 1 0 8 0 0
+fn=__ieee754_acos_sse2
+0 171466497 7391 75 37221659 772143 347 8816817 64034 398
+fn=__ieee754_atan2_avx
+0 290700889 107470 254 36499422 806293 702 4826088 0 0
+fn=__ieee754_pow_sse2
+0 21130759 2936 44 4103260 117716 639 1946070 1 0
+fn=__init_misc
+0 24 2 2 7 1 0 5 1 0
+fn=__libc_csu_init
+0 34 3 3 8 1 1 8 0 0
+fn=__libc_disable_asynccancel
+0 2268 201 2 567 6 0 0 0 0
+fn=__libc_dl_error_tsd
+0 27 3 1 27 2 0 0 0 0
+fn=__libc_dlopen_mode
+0 23 2 2 7 2 0 5 0 0
+fn=__libc_dlsym
+0 104 3 3 36 2 0 16 0 0
+fn=__libc_enable_asynccancel
+0 2079 94 1 567 0 0 0 0 0
+fn=__libc_memalign
+0 1190 4 4 199 0 0 197 1 1
+fn=__libc_pthread_init
+0 393 3 3 110 1 0 58 8 8
+fn=__libc_sigaction
+0 134 6 6 38 0 0 38 3 3
+fn=__libc_thread_freeres
+0 224 2 2 56 1 0 48 0 0
+fn=__lll_lock_wait
+0 264 21 1 78 31 0 24 6 6
+fn=__lll_unlock_wake
+0 210 32 2 63 4 0 63 0 0
+fn=__log_finite
+0 8 1 1 3 0 0 0 0 0
+fn=__longjmp
+0 180 1 1 99 0 0 0 0 0
+fn=__new_exitfn
+0 39 5 5 11 4 2 5 0 0
+fn=__nptl_deallocate_tsd
+0 45 2 2 18 0 0 0 0 0
+fn=__open_nocancel
+0 10 1 1 2 0 0 0 0 0
+fn=__pow_finite
+0 5 1 1 3 0 0 0 0 0
+fn=__pthread_cleanup_upto
+0 198 3 1 81 0 0 45 0 0
+fn=__pthread_disable_asynccancel
+0 96 1 1 24 1 0 0 0 0
+fn=__pthread_enable_asynccancel
+0 88 3 2 24 1 0 0 0 0
+fn=__pthread_initialize_minimal
+0 165 14 14 23 3 0 62 8 5
+fn=__pthread_unwind
+0 99 2 2 9 0 0 36 9 0
+fn=__read_nocancel
+0 5 1 1 1 0 0 0 0 0
+fn=__register_atfork
+0 50 5 5 12 3 3 10 0 0
+fn=__resolv_context_freeres
+0 128 2 2 64 7 0 48 0 0
+fn=__rpc_thread_destroy
+0 88 2 2 40 1 0 16 0 0
+fn=__run_exit_handlers
+0 54 4 3 9 3 0 9 0 0
+fn=__sigjmp_save
+0 81 0 0 18 0 0 18 0 0
+fn=__sigsetjmp
+0 511 6 5 121 3 0 208 2 2
+fn=__sin_avx
+0 228466529 78966 108 43387792 298533 60 17792583 18 0
+fn=__strcmp_sse42
+0 50 8 8 8 2 2 0 0 0
+fn=__strlen_sse42
+0 1350 2 2 180 3 2 0 0 0
+fn=__strtol_internal
+0 3 0 0 2 0 0 0 0 0
+fn=__tan_avx
+0 111 11 11 25 10 10 9 0 0
+fn=__uflow
+0 37 4 4 10 1 0 2 0 0
+fn=__unregister_atfork
+0 52 2 2 20 2 0 4 0 0
+fn=_dl_add_to_namespace_list
+0 250 4 2 62 0 0 41 0 0
+fn=_dl_add_to_slotinfo
+0 48 2 2 18 1 0 12 0 0
+fn=_dl_addr
+0 56503 10 10 13784 955 840 16 1 0
+fn=_dl_allocate_tls
+0 168 2 2 32 0 0 48 0 0
+fn=_dl_allocate_tls_init
+0 1053 10 6 324 6 0 153 0 0
+fn=_dl_allocate_tls_storage
+0 332 3 3 7 0 0 295 37 37
+fn=_dl_cache_libcmp
+0 3448 8 4 523 40 40 0 0 0
+fn=_dl_catch_error
+0 612 6 3 187 3 0 289 5 5
+fn=_dl_check_all_versions
+0 103 3 3 17 0 0 10 0 0
+fn=_dl_check_caller
+0 160 14 14 60 9 2 10 0 0
+fn=_dl_check_map_versions
+0 3225 26 14 1026 21 20 403 23 23
+fn=_dl_count_modids
+0 4 2 2 3 0 0 0 0 0
+fn=_dl_deallocate_tls
+0 1584 3 3 436 32 0 152 0 0
+fn=_dl_debug_initialize
+0 81 6 3 28 4 1 4 0 0
+fn=_dl_debug_state
+0 4 0 0 4 0 0 0 0 0
+fn=_dl_determine_tlsoffset
+0 85 4 4 15 0 0 9 0 0
+fn=_dl_discover_osversion
+0 88 6 6 15 2 2 7 1 1
+fn=_dl_dst_count
+0 170 4 2 50 0 0 50 0 0
+fn=_dl_fini
+0 422 12 12 157 42 0 46 10 0
+fn=_dl_fixup
+0 3024 20 7 1132 189 25 275 0 0
+fn=_dl_get_tls_static_info
+0 5 1 1 3 0 0 2 1 1
+fn=_dl_important_hwcaps
+0 267 18 18 48 0 0 45 2 2
+fn=_dl_init
+0 411 15 9 133 6 0 42 0 0
+fn=_dl_init_paths
+0 1579 19 19 194 0 0 41 4 4
+fn=_dl_initial_error_catch_tsd
+0 22 1 1 11 0 0 0 0 0
+fn=_dl_load_cache_lookup
+0 1369 36 18 261 34 33 119 2 1
+fn=_dl_lookup_symbol_x
+0 42045 14 13 8524 188 130 5085 43 20
+fn=_dl_map_object
+0 1997 45 23 463 14 0 303 12 9
+fn=_dl_map_object_deps
+0 3204 77 40 680 12 1 287 3 3
+fn=_dl_map_object_from_fd
+0 4457 88 46 978 49 43 459 44 44
+fn=_dl_name_match_p
+0 10405 12 3 2693 66 0 1546 15 10
+fn=_dl_new_object
+0 1157 26 14 212 6 6 209 35 35
+fn=_dl_next_ld_env_entry
+0 384 2 2 132 0 0 2 0 0
+fn=_dl_next_tls_modid
+0 6 1 1 3 0 0 1 0 0
+fn=_dl_open
+0 55 4 4 14 1 0 20 0 0
+fn=_dl_process_tunable_env_entries
+0 397 2 2 128 34 34 1 0 0
+fn=_dl_receive_error
+0 28 2 2 10 0 0 12 0 0
+fn=_dl_relocate_object
+0 27552 70 48 7416 876 798 3126 275 264
+fn=_dl_runtime_resolve_xsave
+0 1680 13 4 2016 5 0 2100 93 43
+fn=_dl_setup_hash
+0 161 4 2 49 8 8 42 0 0
+fn=_dl_sort_fini
+0 769 10 10 209 6 0 54 2 0
+fn=_dl_start
+0 657 17 17 135 26 24 56 19 18
+fn=_dl_sysdep_read_whole_file
+0 82 6 3 12 0 0 18 3 1
+fn=_dl_sysdep_start
+0 463 11 11 128 18 17 30 5 5
+fn=_dl_sysdep_start_cleanup
+0 1 1 1 1 0 0 0 0 0
+fn=_dl_tls_get_addr_soft
+0 611 2 2 282 14 0 0 0 0
+fn=_dl_unload_cache
+0 20 3 1 6 3 0 4 0 0
+fn=_dl_vdso_vsym
+0 28 2 2 12 0 0 0 0 0
+fn=_fxstat
+0 100 4 2 10 0 0 0 0 0
+fn=_init
+0 60 6 6 14 1 0 18 2 2
+fn=_int_free
+0 150667 33 18 37669 203 0 14833 0 0
+fn=_int_malloc
+0 297897 1699 37 37591 25 2 45893 1864 1832
+fn=_itoa_word
+0 7625472 3 3 665492 97 1 485276 0 0
+fn=_longjmp_unwind
+0 72 1 1 27 2 0 0 0 0
+fn=_pthread_cleanup_pop
+0 40 1 0 16 0 0 8 2 0
+fn=_pthread_cleanup_pop_restore
+0 480896 94 1 180336 0 0 60112 0 0
+fn=_pthread_cleanup_push
+0 48 1 1 16 1 0 32 0 0
+fn=_pthread_cleanup_push_defer
+0 841568 188 2 180336 792 0 300560 1 0
+fn=_setjmp
+0 18 1 1 0 0 0 0 0 0
+fn=_wordcopy_fwd_aligned
+0 36 6 5 8 1 1 4 0 0
+fn=_xstat
+0 98 1 1 8 0 0 6 0 0
+fn=access
+0 9 2 2 1 0 0 1 0 0
+fn=acos
+0 8038730 54342 1 3215492 4465 0 0 0 0
+fn=arena_get2.isra.3
+0 743 12 12 32 6 1 268 34 34
+fn=arena_thread_freeres
+0 65 3 3 31 9 0 10 0 0
+fn=atan2
+0 12861968 11427 1 0 0 0 0 0 0
+fn=bcmp
+0 2829 25 15 690 17 14 196 2 2
+fn=brk
+0 337 4 3 51 0 0 26 1 1
+fn=bsearch
+0 904 2 2 164 0 0 118 0 0
+fn=bvh_make_node
+0 73899 12 12 16806 10 0 24472 20 0
+fn=cache_rpath.part.4
+0 44 2 2 16 0 0 14 0 0
+fn=calloc
+0 147994 24 12 35778 12 0 18532 35 34
+fn=check_match.9523
+0 10494 6 5 4343 212 68 1262 18 10
+fn=check_stdfiles_vtables
+0 11 2 2 7 2 0 0 0 0
+fn=clone
+0 216 2 2 32 3 0 24 8 8
+fn=close
+0 35 2 1 7 0 0 0 0 0
+fn=cos
+0 8 2 2 3 0 0 0 0 0
+fn=csloww
+0 71870 2792 12 12835 473 1 1153 0 0
+fn=csloww1
+0 1021750 59 13 168246 2363 0 10972 0 0
+fn=delete_base
+0 98 0 0 0 0 0 0 0 0
+fn=dl_iterate_phdr
+0 3387 15 7 1304 39 0 1111 9 2
+fn=dl_main
+0 1278 77 77 263 31 21 151 18 18
+fn=dl_open_worker
+0 323 23 23 102 0 0 30 0 0
+fn=do_clone.constprop.4
+0 256 2 2 48 1 0 48 1 0
+fn=do_dlopen
+0 18 2 2 11 3 0 4 0 0
+fn=do_dlsym
+0 72 1 1 24 0 0 24 0 0
+fn=do_lookup_x
+0 76377 37 14 25379 674 226 11376 35 20
+fn=elision_init
+0 12 2 2 5 0 0 2 1 1
+fn=emit_base
+0 6000714 0 0 1000119 0 0 3000357 2118 5
+fn=exit
+0 6 1 1 1 0 0 2 1 0
+fn=expand_dynamic_string_token
+0 231 3 3 42 0 0 63 1 1
+fn=fclose@@GLIBC_2.2.5
+0 61 7 7 16 1 0 8 0 0
+fn=fflush
+0 5778 6 5 2140 107 0 535 13 7
+fn=fgets_unlocked
+0 36 3 3 7 0 0 7 0 0
+fn=fillin_rpath
+0 511 14 14 99 0 0 95 2 2
+fn=floor
+0 5 1 1 3 0 0 0 0 0
+fn=floorf
+0 5 2 2 3 0 0 0 0 0
+fn=fmax
+0 330345 0 0 66069 0 0 0 0 0
+fn=fmin
+0 949595 1 1 189919 0 0 0 0 0
+fn=fopen@@GLIBC_2.2.5
+0 4 1 1 0 0 0 0 0 0
+fn=fprintf
+0 1021836 267 3 60108 0 0 540972 14 8
+fn=free
+0 875996 7 4 367780 300 0 14 0 0
+fn=get_center_at_time
+0 155419155 12841 2 51806385 503396 0 17268795 8 0
+fn=get_phys_pages
+0 2 1 1 0 0 0 0 0 0
+fn=getenv
+0 382 4 4 129 43 0 7 0 0
+fn=getpagesize
+0 54 2 1 54 0 0 0 0 0
+fn=getrlimit
+0 5 1 1 1 0 0 0 0 0
+fn=gettimeofday
+0 15 2 2 1 0 0 5 0 0
+fn=handle_intel.isra.0
+0 94 4 4 14 0 0 26 0 0
+fn=handle_ld_preload
+0 662 7 7 68 1 1 17 2 2
+fn=index
+0 1953 10 6 161 9 9 0 0 0
+fn=init_cacheinfo
+0 150 9 9 11 0 0 15 2 2
+fn=init_cpu_features.constprop.0
+0 113 13 13 18 2 2 20 1 1
+fn=init_tls
+0 81 5 5 18 1 0 14 1 1
+fn=intel_02_known_compare
+0 324 1 1 162 6 6 0 0 0
+fn=intel_check_word
+0 407 10 10 28 0 0 40 0 0
+fn=longjmp
+0 126 1 1 9 0 0 36 0 0
+fn=madvise
+0 40 1 1 8 0 0 0 0 0
+fn=main
+0 841939 28 26 300428 22514 8 240385 11 2
+fn=malloc
+0 4511 4 4 1320 5 0 331 0 0
+fn=malloc_consolidate
+0 942 9 9 57 0 0 279 32 32
+fn=malloc_hook_ini
+0 11 2 2 3 1 1 3 0 0
+fn=map_doit
+0 12 2 2 5 0 0 3 0 0
+fn=match_symbol
+0 1698 10 5 666 33 18 162 0 0
+fn=memchr
+0 32 6 6 3 0 0 0 0 0
+fn=memcpy
+0 1160 8 6 187 0 0 152 13 13
+fn=memcpy@@GLIBC_2.14
+0 10 2 2 5 0 0 0 0 0
+fn=memcpy@GLIBC_2.2.5
+0 15 1 1 4 0 0 0 0 0
+fn=memmove
+0 178 4 4 26 0 0 24 1 0
+fn=mempcpy
+0 1490 10 6 201 3 1 138 15 15
+fn=memset
+0 7910 4 2 48 0 0 7654 115 115
+fn=mmap
+0 953 9 5 208 0 0 174 6 4
+fn=mprotect
+0 105 5 2 21 0 0 0 0 0
+fn=msort_with_tmp.part.0
+0 403465 7 7 96842 10 0 69475 104 70
+fn=munmap
+0 45 5 2 9 0 0 0 0 0
+fn=new_heap
+0 54 7 7 7 1 1 9 1 1
+fn=open
+0 163 2 1 22 0 0 14 0 0
+fn=open_path
+0 1276 27 15 408 8 1 150 6 3
+fn=open_verify
+0 1395 24 13 298 14 12 230 2 1
+fn=openaux
+0 170 3 2 80 0 0 30 0 0
+fn=phys_pages_info
+0 59 5 5 10 2 0 12 0 0
+fn=pow
+0 2162200 12259 3 324330 0 0 324330 0 0
+fn=pthread_cancel_init
+0 58 5 5 11 0 0 15 1 1
+fn=pthread_create@@GLIBC_2.2.5
+0 1672 23 21 400 13 0 448 56 56
+fn=pthread_exit
+0 63 1 1 36 1 0 27 7 0
+fn=pthread_join
+0 484 9 5 108 9 0 96 1 0
+fn=pthread_mutex_lock
+0 5167 10 4 1255 307 0 250 0 0
+fn=pthread_mutex_unlock
+0 4005 186 3 1152 7 0 201 0 0
+fn=pthread_once
+0 60 3 3 25 2 0 4 0 0
+fn=ptmalloc_init.part.7
+0 405 5 5 136 47 1 9 2 0
+fn=qsort
+0 510 0 0 0 0 0 0 0 0
+fn=qsort_r
+0 18639 11 11 2567 11 0 4095 2 0
+fn=rand
+0 18270856 2 1 4567714 0 0 4567714 6 0
+fn=random
+0 86776704 520 3 31969067 9207 1 4567714 290 5
+fn=random_r
+0 118613219 771 2 36541712 18996 2 18270856 0 0
+fn=ray_colour.part.0
+0 79567029 3534 6 25790157 10507 0 16193892 5877 5
+fn=read
+0 25 0 0 5 0 0 0 0 0
+fn=render_threads
+0 29041919 2049 8 11100535 9336 0 5280428 30390 22425
+fn=res_thread_freeres
+0 136 1 1 64 9 8 40 0 0
+fn=rint
+0 5 2 2 3 0 0 0 0 0
+fn=rintf
+0 5 1 1 3 0 0 0 0 0
+fn=rt_aabb_hit
+0 4444858437 2 2 838125558 1609497 0 0 0 0
+fn=rt_aabb_surrounding_bb
+0 902943 5 5 418437 0 0 396414 8 1
+fn=rt_bvh_node_bb
+0 11220 2 2 4080 0 0 3060 0 0
+fn=rt_bvh_node_delete
+0 8631 2 2 2527 331 0 1505 0 0
+fn=rt_bvh_node_hit
+0 2680617095 4 4 691896161 248187 0 540707739 7535 66
+fn=rt_bvh_node_new
+0 19 2 2 4 0 0 6 0 0
+fn=rt_camera_delete
+0 1 0 0 0 0 0 0 0 0
+fn=rt_camera_get_ray
+0 69299220 549 10 27000000 45257 0 15000000 735 0
+fn=rt_camera_new
+0 166 14 14 32 0 0 35 1 0
+fn=rt_get_sphere_uv
+0 57878856 3 3 19292952 72134 1 14469714 47056 246
+fn=rt_hit_record_set_front_face
+0 46921758 3 3 16151741 0 0 6430984 83 0
+fn=rt_hittable_bb
+0 109048 1 1 27262 1293 0 0 0 0
+fn=rt_hittable_box_cmp_x
+0 124856 2 2 23760 1 0 11880 1 0
+fn=rt_hittable_box_cmp_y
+0 101838 3 3 18516 4 0 9258 2 0
+fn=rt_hittable_box_cmp_z
+0 192582 2 2 36444 130 0 18222 0 0
+fn=rt_hittable_claim
+0 1452 1 1 968 0 0 0 0 0
+fn=rt_hittable_delete
+0 12827 1 0 2958 1454 0 1479 0 0
+fn=rt_hittable_hit
+0 306467268 0 0 76616817 1774029 0 0 0 0
+fn=rt_hittable_init
+0 16915 2 2 995 0 0 4975 3 0
+fn=rt_hittable_list_add
+0 9215 2 2 2910 1 0 1940 31 0
+fn=rt_hittable_list_clear
+0 2940 4 2 1463 61 0 491 0 0
+fn=rt_hittable_list_deinit
+0 24 2 1 4 0 0 10 0 0
+fn=rt_hittable_list_get_size
+0 4 1 1 2 0 0 0 0 0
+fn=rt_hittable_list_get_underlying_container
+0 4 0 0 2 0 0 0 0 0
+fn=rt_hittable_list_hit_test
+0 95366763 5 5 32790729 1038 0 24794844 2065 15
+fn=rt_hittable_list_init
+0 46 2 2 6 0 0 14 0 0
+fn=rt_material_base_init
+0 8228 2 2 484 0 0 2420 0 0
+fn=rt_material_delete
+0 4356 1 0 968 381 0 484 0 0
+fn=rt_material_emit
+0 9001071 2 2 3000357 35621 0 2000238 0 0
+fn=rt_material_scatter
+0 4000476 0 0 1000119 15026 0 0 0 0
+fn=rt_moving_sphere_bb
+0 2452368 501 12 903504 1252 0 860480 28 2
+fn=rt_moving_sphere_delete
+0 4224 1 1 1152 167 0 768 0 0
+fn=rt_moving_sphere_hit
+0 221138463 9 3 73712821 87140 0 56702170 20388 107
+fn=rt_moving_sphere_new
+0 35712 774 8 10368 0 0 17664 0 0
+fn=rt_mt_dielectric_new
+0 567 2 2 81 0 0 135 0 0
+fn=rt_mt_dielectric_scatter
+0 22190666 13081 18 5714262 3668 1 4163518 801 0
+fn=rt_mt_diffuse_delete
+0 4246 1 1 1158 0 0 772 0 0
+fn=rt_mt_diffuse_new_with_albedo
+0 3080 1 1 1155 0 0 385 0 0
+fn=rt_mt_diffuse_new_with_texture
+0 8492 2 2 1158 0 0 1930 0 0
+fn=rt_mt_diffuse_scatter
+0 71390655 65784 9 22437063 36996 0 25836618 3641 0
+fn=rt_mt_metal_new
+0 1988 2 2 497 0 0 568 0 0
+fn=rt_mt_metal_scatter
+0 23441274 11 11 6709635 30 0 4376454 461 0
+fn=rt_scene_get_id_by_name
+0 21 2 2 6 1 1 4 0 0
+fn=rt_scene_random
+0 57556 28 28 14583 5 3 15213 0 0
+fn=rt_skybox_delete
+0 1 1 1 0 0 0 0 0 0
+fn=rt_skybox_new_gradient
+0 20 2 2 7 1 0 7 0 0
+fn=rt_skybox_value
+0 26358552 5 3 7188696 2776 0 1797174 113 0
+fn=rt_sphere_bb
+0 157200 3 3 31440 216 0 31440 0 0
+fn=rt_sphere_delete
+0 1200 1 1 300 19 0 200 0 0
+fn=rt_sphere_hit
+0 92808303 2 2 30936101 107778 0 17677772 16288 37
+fn=rt_sphere_hit_test_generic
+0 609238487 9 9 127591313 2460 1 27774866 63416 376
+fn=rt_sphere_new
+0 6400 5 5 1600 0 0 2800 0 0
+fn=rt_texture_cp_delete
+0 13 2 2 4 0 0 3 0 0
+fn=rt_texture_cp_new_with_colour
+0 22 2 2 7 0 0 9 0 0
+fn=rt_texture_cp_new_with_textures
+0 27 2 2 4 0 0 7 0 0
+fn=rt_texture_cp_value
+0 17897634 2026 4 6614343 1760 0 4279869 2 0
+fn=rt_texture_delete
+0 3492 1 0 776 335 0 388 0 0
+fn=rt_texture_init
+0 5044 1 1 388 0 0 1552 0 0
+fn=rt_texture_sc_delete
+0 2322 1 1 387 0 0 0 0 0
+fn=rt_texture_sc_new
+0 8127 2 2 1935 0 0 2322 0 0
+fn=rt_texture_sc_new_with_components
+0 5005 1 1 1540 0 0 2695 0 0
+fn=rt_texture_sc_value
+0 10198665 2558 2 3399555 35 0 2039733 1 0
+fn=rt_texture_value
+0 9620910 257 1 3206970 35624 0 2137980 0 0
+fn=rt_write_colour
+0 3211179 5 5 590393 2 1 0 0 0
+fn=rtld_lock_default_lock_recursive
+0 10 1 1 10 1 1 0 0 0
+fn=rtld_lock_default_unlock_recursive
+0 10 0 0 10 0 0 0 0 0
+fn=sbrk
+0 410 4 4 108 9 1 66 1 0
+fn=secure_getenv
+0 5 2 2 2 1 0 0 0 0
+fn=sin
+0 16 3 1 6 1 0 0 0 0
+fn=sincos
+0 15637953 3 3 3399555 0 0 5439288 0 0
+fn=sscanf
+0 17 3 3 1 0 0 9 0 0
+fn=start_thread
+0 600 25 7 160 5 0 112 24 16
+fn=strcasecmp
+0 5 2 2 3 1 0 0 0 0
+fn=strchrnul
+0 5528415 2 2 480755 93 0 0 0 0
+fn=strcmp
+0 35701 18 3 11123 190 62 0 0 0
+fn=strdup
+0 68 0 0 8 0 0 16 0 0
+fn=strerror_thread_freeres
+0 24 0 0 16 0 0 0 0 0
+fn=strlen
+0 2332 11 6 254 3 3 0 0 0
+fn=strncasecmp
+0 5 2 2 3 0 0 0 0 0
+fn=strnlen
+0 5 1 1 3 0 0 0 0 0
+fn=strsep
+0 2846 2 2 880 0 0 11 0 0
+fn=strtol
+0 8 1 1 4 0 0 0 0 0
+fn=sysconf
+0 58 6 6 10 2 2 8 0 0
+fn=sysmalloc
+0 1251 14 14 319 15 3 210 15 13
+fn=tan
+0 8 1 1 3 1 0 0 0 0
+fn=time
+0 15 2 2 1 0 0 5 0 0
+fn=uname
+0 5 1 1 1 0 0 0 0 0
+fn=unwind_stop
+0 1494 9 3 477 9 0 333 0 0
+fn=version_check_doit
+0 10 2 2 4 0 0 2 0 0
+fn=vfprintf
+0 44638534 1859 45 12977280 1961 3 8891774 92 50
+fn=vsscanf
+0 33 3 3 5 0 0 9 0 0
+fn=worker
+0 3242 104 3 1284 92 0 658 0 0
+fn=write
+0 378 2 1 189 0 0 0 0 0
+summary: 10272392035 529969 2639 2341845379 7571794 4626 881989674 271287 27661

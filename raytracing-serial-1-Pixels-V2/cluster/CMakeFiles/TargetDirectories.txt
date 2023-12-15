@@ -1,0 +1,3 @@
+/home/ac_group06/raytracing-serial-1-Pixels-V2/cluster/CMakeFiles/rebuild_cache.dir
+/home/ac_group06/raytracing-serial-1-Pixels-V2/cluster/CMakeFiles/edit_cache.dir
+/home/ac_group06/raytracing-serial-1-Pixels-V2/cluster/CMakeFiles/ray_tracing_one_week.dir
